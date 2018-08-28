@@ -27,7 +27,7 @@ public class Test1 {
 	public void testBrforeMethod() {
 		Reporter.log("Method Starts",true);
 	}
-	@Test
+	@Test(priority=1)
 	public void test() {
 		Reporter.log("Test Starts",true);
 	}
